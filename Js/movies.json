@@ -1,0 +1,101 @@
+var MovieFactory =[{
+"image":"img/Avengers.jpg",
+"MovieName":"Avengers",
+"description":"Nick Fury is the director of S.H.I.E.L.D., an international peace-keeping agency. The agency is a who's who of Marvel Super Heroes, with Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When global security is threatened by Loki and his cohorts.",
+"Likes":200
+},{
+"image":"img/300.jpg",
+"MovieName":"300",
+"description":"In the Battle of Thermopylae of 480 BC an alliance of Greek city-states fought the invading Persian army in the mountain pass of Thermopylae. Vastly outnumbered, the Greeks held back the enemy in one of the most famous last stands of history",
+"Likes":100
+},{
+"image":"img/JohnWick.jpg",
+"MovieName":"JohnWick",
+"description":"With the untimely death of his beloved wife still bitter in his mouth, John Wick, the expert former assassin, receives one final gift from her--a precious keepsake to help John find a new meaning in life now that she is gone.",
+"Likes":300
+},{
+"image":"img/Naruto.jpg",
+"MovieName":"Naruto",
+"description":"Naruto Uzumaki, is a loud, hyperactive, adolescent ninja who constantly searches for approval and recognition, as well as to become Hokage, who is acknowledged as the leader and strongest of all ninja in the village.",
+"Likes":500
+},{
+"image":"img/thor.jpg",
+"MovieName":"Thor",
+"description":"The warrior Thor (Hemsworth) is cast out of the fantastic realm of Asgard by his father Odin (Hopkins) for his arrogance and sent to Earth to live among humans. Falling in love with scientist Jane Foster (Portman) teaches Thor much-needed lessons, and his new-found strength comes into play as a villain from his homeland sends dark forces toward Earth.",
+"Likes":50
+},{
+"image":"img/venom.jpg",
+"MovieName":"Venom",
+"description":"When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego 'Venom' to save his life.",
+"Likes":80
+},{
+"image":"img/dont breath.jpg",
+"MovieName":"dont breath",
+"description":"Rocky, a young woman wanting to start a better life for her and her sister, agrees to take part in the robbery of a house owned by a wealthy blind man with her boyfriend Money and their friend Alex. But when the blind man turns out to be a more ruthless adversary than he seems, the group must find a way to escape his home before they become his latest victims.",
+"Likes":400
+},{
+"image":"img/iron man.jpg",
+"MovieName":"iron man",
+"description":"Tony Stark. Genius, billionaire, playboy, philanthropist. Son of legendary inventor and weapons contractor Howard Stark. When Tony Stark is assigned to give a weapons presentation to an Iraqi unit led by Lt. Col. James Rhodes, he's given a ride on enemy lines.",
+"Likes":320
+},{
+"image":"img/kingdom of heaven.jpg",
+"MovieName":"kingdom of heaven",
+"description":"It is the time of the Crusades during the Middle Ages - the world shaping 200-year collision between Europe and the East. A blacksmith named Balian has lost his family and nearly his faith.",
+"Likes":321
+},{
+"image":"img/man of steel.jpg",
+"MovieName":"man of steel",
+"description":" young boy learns that he has extraordinary powers and is not of this Earth. As a young man, he journeys to discover where he came from and what he was sent here to do.",
+"Likes":90
+},{
+"image":"img/spider man.jpg",
+"MovieName":"spider man",
+"description":"Peter Parker has finally managed to piece together the once-broken parts of his life, maintaining a balance between his relationship with Mary-Jane and his responsibility as Spider-Man.",
+"Likes":50
+},{
+"image":"img/split.jpg",
+"MovieName":"split",
+"description":"Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others.",
+"Likes":700
+},{
+"image":"img/the grudge.jpg",
+"MovieName":"the grudge",
+"description":"Karen Davis, an American Nurse, moves to Tokyo and encounters a supernatural spirit who is vengeful and often possesses its victims.",
+"Likes":421
+},{
+"image":"img/the hulk.jpg",
+"MovieName":"the hulk",
+"description":"Depicting the events after the Gamma Bomb. 'The Incredible Hulk' tells the story of Dr Bruce Banner, who seeks a cure to his unique condition, which causes him to turn into a giant green monster under emotional stress.",
+"Likes":653
+},{
+"image":"img/the hunger games.jpg",
+"MovieName":"the hunger games",
+"description":"In a dystopian future, the totalitarian nation of Panem is divided into 12 districts and the Capitol. Each year two young representatives from each district are selected by lottery to participate in The Hunger Games.",
+"Likes":951
+},{
+"image":"img/the nun.jpg",
+"MovieName":"the nun",
+"description":"When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted past and a novitiate on the threshold of her final vows are sent by the Vatican to investigate. Together they uncover the order's unholy secret.",
+"Likes":415
+},{
+"image":"img/transformers .jpg",
+"MovieName":"transformers ",
+"description":"A long time ago, far away on the planet of Cybertron, a war is being waged between the noble Autobots (led by the wise Optimus Prime) and the devious Decepticons (commanded by the dreaded Megatron) for control over the Allspark.",
+"Likes":197
+},{
+"image":"img/troy.jpg",
+"MovieName":"troy",
+"description":"It is the year 1250 B.C. during the late Bronze age. Two emerging nations begin to clash after Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband, Menelaus, and sail with him back to Troy.",
+"Likes":884
+},{
+"image":"img/world war z.jpg",
+"MovieName":"world war z ",
+"description":"Life for former United Nations investigator Gerry Lane and his family seems content. Suddenly, the world is plagued by a mysterious infection turning whole human populations into rampaging mindless zombies.",
+"Likes":194
+},{
+"image":"img/the note book .jpg",
+"MovieName":"the note book ",
+"description":"In a nursing home, resident Duke reads a romance story to an old woman who has senile dementia with memory loss. In the late 1930s, wealthy seventeen year-old Allie Hamilton is spending summer vacation in Seabrook.",
+"Likes":884
+}];

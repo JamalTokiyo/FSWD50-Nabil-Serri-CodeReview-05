@@ -74,10 +74,19 @@ h2,h5{
 
 }
 #logo-img{
-	width: 40px;
-	height: 50px;
+	font-size: 50px;
+	color: #2EA33A;
+	
+}
+#Dropdown{
+	background:#000000;
+}
+.nab{
+	font-size: 50px;
+	color: #2EA33A;
 }
 #logo-img:hover{
+
 
 }
 #like-text{
@@ -109,6 +118,8 @@ h2,h5{
 	align-items: center;
 	
 }
+
+
 #more {display: none;}
 @media screen and (min-width: 421px) and (max-width: 588px) {
 #item{

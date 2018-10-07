@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CodeReview 05</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="Css/style.css">
-	<script type="text/javascript" src="Js/movies.json"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<head>
+    <title>CodeReview 05</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <script type="text/javascript" src="Js/movies.json"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<div id="header" class="container-fluid text-center">
-		<p>Movie Factory</p>
-	</div>
-	<div id="navBar" class="container-fluid">
-		<strong><a href="index.html"> Home</a></strong>
-	</div>
-	<div id="content" class="container-fluid">
-		<div id="nab" class="container">
-			<div class="row">
-				<h1 class="col-lg-2 col-lg-offset-5 col-xs-offset-4" id="heading">Movies</h1>
-				<div id="sort-btn" class="col-lg-1 col-lg-offset-4 col-xs-offset-4">
-					<img id="sort" src="img/sort-down.png">
-					<span id="sort">sort</span>
-				</div>
-			</div>
-		
-		</div>
-	<div class="container">
-		<div id="row" class="row"></div>
-	</div>
-	</div>
-	<div id="footer" class="container-fluid text-center">
-		<p>Movie Factory</p>
-	</div>
-	<script type="text/javascript" src="Js/myscript.js"></script>
+    <div id="header" class="container-fluid text-center">
+        <p>Movie Factory</p>
+    </div>
+    <div id="navBar" class="container-fluid">
+        <strong class="col-lg-4 col-xs-4"><a href="index.html"> Home</a></strong>
+        <div class="dropdown col-lg-2 col-lg-offset-6 col-md-3 col-md-offset-5 col-xs-4 col-xs-offset-4">
+            <button id="Dropdown" class="btn btn-inverse dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Categories
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a id="Drama-btn" href="#">Drama</a></li>
+                <li><a id="Horror-btn" href="#">Horror</a></li>
+                <li><a id="Action-btn" href="#">Action</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content" class="container-fluid">
+        <div id="nab" class="container">
+            <div class="row">
+                <h1 class="col-lg-2 col-lg-offset-5 col-xs-offset-4" id="heading">Movies</h1>
+                <div id="sort-btn" class="col-lg-1 col-lg-offset-4 col-xs-offset-4">
+                    <img id="sort" src="img/sort-down.png">
+                    <span id="sort">sort</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="row" class="row"></div>
+        </div>
+    </div>
+    <div id="footer" class="container-fluid text-center">
+        <p>Movie Factory</p>
+    </div>
+    <script type="text/javascript" src="Js/myscript.js"></script>
 </body>
+
 </html>
